@@ -1,17 +1,15 @@
-#kitten {
-  height: 100px;
-}
 
 body {
+  text-align: center;
   background-color: #bab4bb;
   font-family: "Alegreya Sans SC", sans-serif;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 footer {
   font-family: "Alegreya Sans SC", sans-serif;
   font-weight: 200;
-  background-color: purple;
+  background-color: #683A5E;
   color: white;
   text-align: center;
   position: relative;;
@@ -32,7 +30,7 @@ table {
   align-items: center;
 }
 
-tr:nth-child(even) {
+tr:hover {
   background-color: rgb(211,211,211);
 }
 
@@ -46,5 +44,23 @@ tr:nth-child(even) {
 
 .contact-links {
   color: white;
+}
 
+.my-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.my-container h1 {
+    padding: 200px;
+    position: relative;
+    z-index: 2;
+}
+.my-container img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
 }
