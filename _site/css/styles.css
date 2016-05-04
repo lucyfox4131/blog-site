@@ -1,0 +1,32 @@
+#kitten {
+  height: 100px;
+}
+
+body {
+  background-color: #bab4bb;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 200;
+
+}
+
+.produce {
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.table-heading {
+  text-align: left;
+  padding-left: 30px;
+}
+
+table {
+  align-items: center;
+}
+
+#fruit {
+  color: rgb(186,0,187);
+}
+
+#veggies {
+  color: rgb(186,0,0);
+}
