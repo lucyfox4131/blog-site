@@ -9,10 +9,20 @@ body {
 footer {
   font-family: "Alegreya Sans SC", sans-serif;
   font-weight: 200;
-  background-color: #683A5E;
   color: white;
   text-align: center;
   position: relative;;
+}
+
+footer .fa {
+  font-size: 40px;
+  margin-left: 10px;
+}
+
+.display-flex {
+  display: flex;
+  justify-content: center;
+  
 }
 
 .produce {
@@ -28,6 +38,8 @@ footer {
 
 table {
   align-items: center;
+  /*position: absolute;*/
+  z-index: 10;
 }
 
 tr:hover {
@@ -44,23 +56,4 @@ tr:hover {
 
 .contact-links {
   color: white;
-}
-
-.my-container {
-  position: relative;
-  overflow: hidden;
-}
-
-.my-container h1 {
-    padding: 200px;
-    position: relative;
-    z-index: 2;
-}
-.my-container img {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: auto;
-    opacity: 0.3;
 }
