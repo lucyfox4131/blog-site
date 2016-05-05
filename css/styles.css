@@ -2,8 +2,16 @@
 body {
   text-align: center;
   background-color: #bab4bb;
+  background-image: url("backgroundphotosky.jpg");
   font-family: "Alegreya Sans SC", sans-serif;
   font-weight: 400;
+  margin-bottom: 100px;
+}
+
+.navbar {
+  background: #bab4bb;
+  font-family: "Alegreya Sans SC", sans-serif;
+  border: 2px solid black;
 }
 
 footer {
@@ -11,7 +19,12 @@ footer {
   font-weight: 200;
   color: white;
   text-align: center;
-  position: relative;;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: black;
 }
 
 footer .fa {
@@ -22,38 +35,12 @@ footer .fa {
 .display-flex {
   display: flex;
   justify-content: center;
-  
-}
-
-.produce {
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 10px;
-}
-
-.table-heading {
-  text-align: left;
-  padding-left: 20px;
-}
-
-table {
-  align-items: center;
-  /*position: absolute;*/
-  z-index: 10;
-}
-
-tr:hover {
-  background-color: rgb(211,211,211);
-}
-
-#fruit {
-  color: rgb(186,0,187);
-}
-
-#veggies {
-  color: rgb(186,0,0);
 }
 
 .contact-links {
   color: white;
+}
+
+#created-by {
+  margin-top: 10px;
 }
